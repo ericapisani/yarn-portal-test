@@ -2,4 +2,6 @@
 node_modules
 # Local Netlify folder
 .netlify
-.yarn
+.yarn/unplugged
+.yarn/install-state.gz
+.yarn/build-state.yml

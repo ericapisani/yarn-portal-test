@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
+import {addNumbers} from 'package2/math'
 
 export default function Home({ allPostsData }) {
   return (
@@ -12,6 +13,9 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <p>
+          Testing the import {addNumbers(10, 50)}
+        </p>
         <p>
           Hello, I’m <strong>Shu</strong>. I’m a software engineer and a
           translator (English/Japanese). You can contact me on{' '}

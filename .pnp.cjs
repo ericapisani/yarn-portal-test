@@ -985,6 +985,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["package2", [\
+        ["portal:../package2::locator=packageWithNext-01ddf5%40workspace%3ApackageWithNext", {\
+          "packageLocation": "./package2/",\
+          "packageDependencies": [\
+            ["package2", "portal:../package2::locator=packageWithNext-01ddf5%40workspace%3ApackageWithNext"],\
+            ["lodash", "npm:4.17.21"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["workspace:package2", {\
           "packageLocation": "./package2/",\
           "packageDependencies": [\
@@ -1002,6 +1010,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["date-fns", "npm:2.28.0"],\
             ["gray-matter", "npm:4.0.3"],\
             ["next", "virtual:2e94cca7a04360eff8deee99553afe4d3ff1aff241c55e31b3ce2ae76c0db111b8706bfd8f4294cee66e57d0fa90c6043eb570938181d5d75776b6aeea6c5275#npm:12.1.4"],\
+            ["package2", "portal:../package2::locator=packageWithNext-01ddf5%40workspace%3ApackageWithNext"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:2e94cca7a04360eff8deee99553afe4d3ff1aff241c55e31b3ce2ae76c0db111b8706bfd8f4294cee66e57d0fa90c6043eb570938181d5d75776b6aeea6c5275#npm:17.0.2"],\
             ["remark", "npm:14.0.2"],\

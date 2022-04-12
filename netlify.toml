@@ -1,6 +1,6 @@
 [build]
 base = "packageWithNext/"
-command = "next build"
+command = "yarn run build"
 publish = ".next"
 
 [[plugins]]
